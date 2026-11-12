@@ -9,9 +9,9 @@ from azure.mgmt.network import NetworkManagementClient
 from azure.mgmt.resource.resources import ResourceManagementClient
 
 RESOURCE_GROUP = "rg-pipeline"
-LOCATION = "westus"
+LOCATION = "canadacentral"
 VM_NAME = "pipeline-vm"
-VM_SIZE = "Standard_B2pts_v2"
+VM_SIZE = "Standard_B2s_v2"
 
 REPO_URL = "https://github.com/Shikhar-55/ephemeral_data_pipeline.git"
 REPO_SUBDIR = "test_pipeline"          # folder inside the repo that has main.py
